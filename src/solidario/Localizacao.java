@@ -14,13 +14,13 @@ public class Localizacao {
     private int id_localizacao;
     private String morada_localizacao;
     private Estado estado;
-    private String data;
+    private String data_estado;
 
 public Localizacao(int id_localizacao, String morada_localizacao, Estado estado, String data){
     this.id_localizacao=id_localizacao;
     this.morada_localizacao=morada_localizacao;
     this. estado=estado;
-    this.data=data;
+    this.data_estado=data_estado;
 }   
 
     public int getId_localizacao() {
@@ -47,12 +47,12 @@ public Localizacao(int id_localizacao, String morada_localizacao, Estado estado,
         this.estado = estado;
     }
 
-    public String getData() {
-        return data;
+    public String getData_estado() {
+        return data_estado;
     }
 
     public void setData(String data) {
-        this.data = data;
+        this.data_estado = data_estado;
     }
 
 
